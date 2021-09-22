@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/personal-website-elmo/static/css/main.cf79cf09.chunk.css",
+    "main.js": "/personal-website-elmo/static/js/main.4aa5a48b.chunk.js",
+    "main.js.map": "/personal-website-elmo/static/js/main.4aa5a48b.chunk.js.map",
+    "runtime-main.js": "/personal-website-elmo/static/js/runtime-main.ed24aa6a.js",
+    "runtime-main.js.map": "/personal-website-elmo/static/js/runtime-main.ed24aa6a.js.map",
+    "static/css/2.f2512455.chunk.css": "/personal-website-elmo/static/css/2.f2512455.chunk.css",
+    "static/js/2.e57193e7.chunk.js": "/personal-website-elmo/static/js/2.e57193e7.chunk.js",
+    "static/js/2.e57193e7.chunk.js.map": "/personal-website-elmo/static/js/2.e57193e7.chunk.js.map",
+    "static/js/3.489bfad4.chunk.js": "/personal-website-elmo/static/js/3.489bfad4.chunk.js",
+    "static/js/3.489bfad4.chunk.js.map": "/personal-website-elmo/static/js/3.489bfad4.chunk.js.map",
+    "index.html": "/personal-website-elmo/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/personal-website-elmo/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.cf79cf09.chunk.css.map": "/personal-website-elmo/static/css/main.cf79cf09.chunk.css.map",
+    "static/js/2.e57193e7.chunk.js.LICENSE.txt": "/personal-website-elmo/static/js/2.e57193e7.chunk.js.LICENSE.txt",
+    "static/media/Evolutionary.8882df44.JPG": "/personal-website-elmo/static/media/Evolutionary.8882df44.JPG",
+    "static/media/MortalKombat.b845cf74.JPG": "/personal-website-elmo/static/media/MortalKombat.b845cf74.JPG",
+    "static/media/TelnetProtocol.f61df526.JPG": "/personal-website-elmo/static/media/TelnetProtocol.f61df526.JPG",
+    "static/media/github.04be58c1.svg": "/personal-website-elmo/static/media/github.04be58c1.svg",
+    "static/media/linkedin.27a3f479.svg": "/personal-website-elmo/static/media/linkedin.27a3f479.svg",
+    "static/media/myPic.d5a63aad.jpg": "/personal-website-elmo/static/media/myPic.d5a63aad.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed24aa6a.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.e57193e7.chunk.js",
+    "static/css/main.cf79cf09.chunk.css",
+    "static/js/main.4aa5a48b.chunk.js"
+  ]
+}
