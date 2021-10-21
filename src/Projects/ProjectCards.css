@@ -1,6 +1,7 @@
 .project-btn {
-  padding: 0;
-  margin-bottom: 25px;
+  /* display: grid; */
+  padding: 0 0.25em !important;
+  /* margin-bottom: 25px; */
   border: none;
   outline: none;
   border-radius: var(--space-md);
@@ -8,6 +9,8 @@
   background-color: transparent;
   text-decoration: none;
   color: var(--color-d);
+  grid-column-gap: 10px !important;
+  grid-row-gap: 30px !important;
 }
 .project-btn:hover,
 .project-btn:visited {
@@ -15,7 +18,7 @@
   color: var(--color-d);
 }
 .project-card {
-  height: 175px !important;
+  height: 150px !important;
 }
 .project-card-body {
   display: flex;
@@ -23,12 +26,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 2px !important;
+
   box-shadow: 5px 5px 20px var(--color-d);
   background-color: var(--color-f);
   height: 100%;
 }
 .project-card-title {
-  font-size: 1rem !important;
+  font-size: 0.9rem !important;
   margin-top: var(--space-xxs) !important;
   margin-bottom: var(--space-xxs) !important;
   height: 30%;

@@ -11,7 +11,7 @@ const ProjectCards = () => {
 
     const projects = [
 {
-    name:"Mortal Kombat Q Edition (comming soon)",
+    name:"Mortal Kombat (comming soon...)",
     img: Mortal,
     link:"#",
     id: 0
@@ -55,9 +55,9 @@ const ProjectCards = () => {
           </a>
         )};
     return ( 
-<>
-{projects.map(renderProjects)}
-</>
+            <>
+            {projects.map(renderProjects)}
+            </>
      );}
  
 export default ProjectCards;

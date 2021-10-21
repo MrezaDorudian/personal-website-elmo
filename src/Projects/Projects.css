@@ -1,29 +1,33 @@
 .project-wrapper {
-  padding: 5%;
   position: relative;
   width: 100%;
+  padding: 5%;
   text-align: center;
-  background-color: var(--color-g);
+  background-color: var(--color-r);
   color: var(--color-f);
 }
 .about-inside {
   margin: auto;
 }
 .projects-title {
-  font-size: var(--text-xl);
+  font-size: var(--text-xl) !important;
   padding: var(--space-lg);
+  color: var(--color-g);
+}
+.cards-wrapper {
+  grid-row-gap: 0.5rem;
 }
 @media screen and (min-width: 900px) {
   .project-wrapper {
     position: relative;
     top: -5rem;
-    left: 5.5rem;
-    width: 55%;
+    left: 3rem;
+    width: 85% !important;
     transform: rotate(10deg);
     padding: 8% 11% 12% 5%;
     transition: 0.7s ease-in-out;
     text-align: left;
-    background-color: var(--color-g);
+    background-color: var(--color-r);
     color: var(--color-f);
   }
   .about-inside {
@@ -36,12 +40,24 @@
   }
   .project-wrapper:hover {
     box-shadow: 0px 0px 20px rgb(18, 44, 22);
-    transform: scale(1.2) rotate(10deg);
+    transform: scale(1.1, 1.05) rotate(10deg) !important;
     z-index: 100;
     padding: 10% 15% 12% 5%;
   }
   .projects-title {
     font-size: var(--text-xxl);
     padding: var(--space-sm);
+    color: var(--color-g);
+  }
+}
+@media screen and (min-width: 1400px) {
+  .project-wrapper {
+    top: -5.5rem;
+    padding: 6% 11% 12% 5%;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .project-wrapper {
+    padding: 11% 11% 12% 5% !important;
   }
 }

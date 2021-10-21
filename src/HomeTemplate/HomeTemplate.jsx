@@ -10,7 +10,6 @@ const HomeTemplate = () => {
                 <Projects/>
                 <Footer/>
             </div>
-
         </div>
      );
 }

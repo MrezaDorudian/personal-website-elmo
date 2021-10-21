@@ -6,12 +6,20 @@
                 color-variables
   -------------------------------------------
   */
-  --color-g: rgb(28, 18, 34);
+  /* --color-g: #7d1935;
   --color-gl: #c5dbd4;
-  --color-gd: #926e89;
-  --color-gdd: #4f208b;
-  --color-d: rgb(38, 25, 46);
-  --color-f: rgb(223, 218, 199);
+  --color-gd: #b42b51;
+  --color-gdd: #f5cebe;
+  --color-d: #420516;
+  --color-f: #f4eee8; */
+
+  --color-g: #4c4c6d;
+  --color-r: #afdfe2;
+  --color-gl: #c5dbd4;
+  --color-gd: #ffbcbc;
+  --color-gdd: #f5cebe;
+  --color-d: #222831;
+  --color-f: #f4eee8;
 
   /*
   -------------------------------------------
@@ -57,7 +65,9 @@
   letter-spacing: calc(var(--space-xxxs) * 0.1);
 }
 body {
-  /* position: relative;
-  height: 100vh; */
+  position: relative;
+
+  /* height: 100vh; */
   overflow-x: hidden;
+  width: 100vw !important;
 }

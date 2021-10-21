@@ -39,21 +39,8 @@
   width: 50%;
   margin: auto;
 }
-.contact-btn {
-  background-color: var(--color-d) !important;
-  color: var(--color-f) !important;
-  width: 100%;
-  box-shadow: none;
-}
-.contact-btn:hover {
-  color: var(--color-g);
-}
 .sIcon:hover {
-  fill: var(--color-gdd);
-  transform: scale(1.01);
-}
-.contact-btn:hover {
-  background-color: var(--color-gdd) !important;
+  fill: var(--color-gd);
   transform: scale(1.01);
 }
 
@@ -70,6 +57,7 @@
     width: 150px;
     height: 150px;
     border-radius: 200px;
+    box-shadow: 2px 2px 5px var(--color-d);
   }
   .contact-wrapper {
     display: flex;
@@ -93,7 +81,7 @@
     padding: 10px;
   }
   .sIcon {
-    fill: var(--color-d);
+    fill: var(--color-g);
     width: var(--space-lg);
     height: var(--space-lg);
   }
@@ -101,83 +89,9 @@
     width: 50%;
     margin: auto;
   }
-  .contact-btn {
-    background-color: var(--color-d) !important;
-    color: var(--color-f) !important;
-    width: 100%;
-    box-shadow: none;
-  }
-  .contact-btn:hover {
-    color: var(--color-g);
-  }
+
   .social-icons i:hover {
     color: var(--color-gdd);
-    transform: scale(1.01);
-  }
-  .contact-btn:hover {
-    background-color: var(--color-gdd) !important;
     transform: scale(1.01);
   }
 }
-
-/* .contact-all-wrapper {
-    position: relative;
-    top: -9.5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-f);
-    z-index: +100;
-    height: auto;
-  }
-  .contact-all-wrapper img {
-    width: 300px;
-    height: 300px;
-    border-radius: 700px;
-  }
-  .contact-wrapper {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-  }
-  .img-wrapper {
-    padding: 50px;
-  }
-  .contact-items {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-  }
-  .social-icons {
-    padding: 40px;
-  }
-  .social-icons i {
-    color: var(--color-d);
-  }
-  .cv-wrapper {
-    width: 50%;
-    margin: auto;
-  }
-  .contact-btn {
-    background-color: var(--color-d) !important;
-    color: var(--color-l) !important;
-    width: 100%;
-    box-shadow: none;
-  }
-  .contact-btn:hover {
-    color: var(--color-g);
-  }
-  .social-icons i:hover {
-    color: var(--color-gdd);
-    transform: scale(1.01);
-  }
-  .contact-btn:hover {
-    background-color: var(--color-gdd) !important;
-    transform: scale(1.01);
-  } */

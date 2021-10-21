@@ -1,13 +1,13 @@
 .navbar {
   position: relative;
-  background-color: var(--color-d);
+  background-color: var(--color-r);
   width: 100%;
   box-shadow: 0px 0px 5px var(--color-f);
   z-index: 110 !important;
   height: 100px;
 }
 .navbar-brand {
-  color: var(--color-f);
+  color: var(--color-g);
   display: flex !important;
   align-items: center;
   justify-content: flex-start;
@@ -15,7 +15,7 @@
   margin-right: auto !important;
 }
 .navbar-brand p {
-  color: var(--color-f) !important;
+  color: var(--color-g) !important;
   margin-bottom: 0;
   font-style: italic;
   font-size: var(--text-md) !important;
@@ -54,7 +54,9 @@
 
 @media screen and (min-width: 900px) {
   .navbar {
-    height: 12vh !important;
+    height: 14vh !important;
+    background-color: var(--color-f);
+    box-shadow: 0px 0px 5px var(--color-g);
   }
   .navbar img {
     border-radius: var(--text-xxxl);
@@ -63,5 +65,6 @@
   }
   .navbar-brand p {
     font-size: var(--text-md);
+    color: var(--color-g) !important;
   }
 }
