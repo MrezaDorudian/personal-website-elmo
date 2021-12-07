@@ -13,7 +13,7 @@ const ProjectCards = () => {
 {
     name:"Mortal Kombat Q Edition (comming soon)",
     img: Mortal,
-    link:"#",
+    link:"https://elmo4679.itch.io/mortal-kombat-q-edition",
     id: 0
 },
 {
