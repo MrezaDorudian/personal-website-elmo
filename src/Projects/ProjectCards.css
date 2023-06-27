@@ -1,0 +1,45 @@
+.project-btn {
+  padding: 0;
+  margin-bottom: 25px;
+  border: none;
+  outline: none;
+  border-radius: var(--space-md);
+  text-align: center;
+  background-color: transparent;
+  text-decoration: none;
+  color: var(--color-d);
+}
+.project-btn:hover,
+.project-btn:visited {
+  text-decoration: none;
+  color: var(--color-d);
+}
+.project-card {
+  height: 175px !important;
+}
+.project-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px !important;
+  box-shadow: 5px 5px 20px var(--color-d);
+  background-color: var(--color-f);
+  height: 100%;
+}
+.project-card-title {
+  font-size: 1rem !important;
+  margin-top: var(--space-xxs) !important;
+  margin-bottom: var(--space-xxs) !important;
+  height: 30%;
+}
+.card-img {
+  height: 65%;
+}
+.project-btn:hover {
+  opacity: 0.7;
+  transform: scale(1.02);
+}
+
+@media screen and (min-width: 900px) {
+}

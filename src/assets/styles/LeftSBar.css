@@ -1,0 +1,20 @@
+.social-links svg{
+fill: var(--gray);
+position:relative;
+top: 0px;
+}
+
+.social-links svg:hover{
+    fill: var(--orange) !important;
+    animation: social 0.5s forwards;
+    -webkit-animation: social 0.5s forwards;
+}
+
+@keyframes social{
+    0%{
+        top:0px;
+    }
+    100%{
+        top:-3px;
+    }
+}

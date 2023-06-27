@@ -1,0 +1,29 @@
+#contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#contact-h{
+    font-size:1.4rem;
+}
+
+.section-h-exp::after{
+display:none !important;
+}
+
+.email-link:hover{
+    background-color: var(--lightorange);
+}
+
+@media only screen and (min-width: 768px){
+    #contact-h{
+        font-size:2.7rem;
+    }
+
+    .contact-desc{
+        width: 500px;
+        margin: 0 auto;
+        text-justify: inter-word;
+    }
+}

@@ -1,0 +1,134 @@
+.main-content-section{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 6rem;
+    background-color: inherit;
+}
+.section-h-gen{
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    color: var(--white);
+}
+
+.section-h-gen::selection{
+    background-color: var(--orange);
+    color:var(--dark);
+}
+
+.main-content-desc{
+    font-size:1.2rem;
+}
+
+.main-content-desc::selection{
+    background-color: var(--orange);
+    color:var(--dark);
+}
+
+.about-skills li{
+    list-style: none;
+}
+
+.about-skills li::before {
+    content: "▹";
+    color: var(--orange);
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+.section-no{
+    color: var(--orange);
+}
+
+.about-img-wrapper{
+    border: 2px solid var(--orange);
+    border-radius: 5px;
+    width: 40vw;
+    height: 40vw;
+    margin:5rem auto 0 auto;
+    opacity: 80%;
+    z-index: -1;
+}
+
+.about-img-wrapper:hover{
+    animation: about-img-wrapper-hover 0.5s forwards !important;
+    opacity: 90%;
+}
+
+@keyframes about-img-wrapper-hover{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(0, -2px);
+    }
+}
+
+.section-content img{
+position: relative;
+border-radius: 5px;
+left:-20px;
+top:-20px;
+width:40vw;
+height: 40vw;
+z-index:-1;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .section-content{
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        gap:50px;
+        text-align: justify;
+        text-justify: inter-word;
+        padding-top:2rem;
+    }
+    
+    .main-content-desc{
+        margin-top:0;
+        font-size:1.3rem;
+    }
+
+
+
+    .about-img-wrapper{
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .section-content img{
+        width:20vw;
+        height: 20vw;
+        }
+     
+    .section-h-gen{
+         font-size: 1.5rem;
+      }
+
+
+    .about-skills{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         gap:20px;
+         list-style: none;
+    }
+
+  }
+  
+  @media only screen and (min-width: 1024px){
+    .main-content-section{
+        padding-top: 8rem;
+    }
+
+    .main-content-desc{
+        margin-top:0;
+        font-size:1.1rem;
+    }
+  }
+
+
+  .ann{
+      height:200px !important;
+  }
+

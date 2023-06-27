@@ -1,0 +1,113 @@
+.exp-content{
+        display:flex;
+        flex-direction: row;
+        padding-top: 2rem;
+}
+
+.main-content-section{
+    padding-top: 6rem !important;
+}
+
+.exp-btn{
+    background-color: transparent;
+    color: inherit;
+    border:none;
+    outline:none;
+    padding:1.5rem;
+    width: 35vw;
+    text-align: left;
+    cursor: pointer;
+}
+
+.exp-details{
+    display: flex;
+    flex-direction: row;
+}
+
+.exp-detail p::selection{
+    background-color: var(--orange);
+    color:var(--dark);
+  }
+
+.section-h-exp{
+    font-size: 1.3rem;
+}
+
+.exp-detail p::before{
+    content: "▹";
+    color: var(--orange);
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.exp-details-wrapper{
+width: 100%;
+padding: 0 2rem;
+font-size: 1rem;
+}
+
+.detail-company{
+    color: var(--orange);
+}
+
+.show-details{
+display: block;
+}
+
+.hide-details{
+  display: none;
+  height: 0px;
+}
+
+.exp-btn:hover{
+    background-color: var(--lighterNavy);
+}
+
+@keyframes experience{
+    0%{
+        top:0px;
+    }
+    100%{
+        top:-3px;
+    }
+}
+
+.active {
+    background-color: var(--lightNavy);
+    border-left: 3px solid var(--orange);
+    color:var(--orange);
+    animation: experience 2s ease-in-out;
+    -webkit-animation: experience 2s ease-in-out;
+    
+  }
+  .deactive {
+    background-color: transparent;
+    border-left: 3px solid var(--gray);
+
+  }
+
+@media only screen and (min-width: 500px){
+    .exp-btn{
+        width: 27vw;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    #experiences{
+        padding: 5rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .main-content-section{
+        padding-top: 8rem !important;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .exp-btn{
+        width: 17vw;
+    }
+}

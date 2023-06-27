@@ -1,0 +1,130 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+body {
+  margin: 0;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--navy);
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  
+    monospace;
+=======
+=======
+>>>>>>> a8ed75d99ea705db763e51d98a5ce348a7138951
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&display=swap");
+
+:root {
+  /*
+  -------------------------------------------
+                color-variables
+  -------------------------------------------
+  */
+  --color-g: rgb(28, 18, 34);
+  --color-gl: #c5dbd4;
+  --color-gd: #926e89;
+  --color-gdd: #4f208b;
+  --color-d: rgb(38, 25, 46);
+  --color-f: rgb(223, 218, 199);
+
+  /*
+  -------------------------------------------
+              font-size-variables
+  -------------------------------------------
+  */
+  --text-base-size: 1em;
+  --text-scale-ratio: 1.2;
+  --text-xs: calc(
+    (var(--text-base-size) / var(--text-scale-ratio)) / var(--text-scale-ratio)
+  );
+  --text-sm: calc(var(--text-xs) * var(--text-scale-ratio));
+  --text-md: calc(
+    var(--text-sm) * var(--text-scale-ratio) * var(--text-scale-ratio)
+  );
+  --text-lg: calc(var(--text-md) * var(--text-scale-ratio));
+  --text-xl: calc(var(--text-lg) * var(--text-scale-ratio));
+  --text-xxl: calc(var(--text-xl) * var(--text-scale-ratio));
+  --text-xxxl: calc(var(--text-xxl) * var(--text-scale-ratio));
+
+  /*
+  -------------------------------------------
+              Spacing-variables
+  -------------------------------------------
+  */
+  --space-unit: 1em;
+  --space-xxxxs: calc(0.125 * var(--space-unit));
+  --space-xxxs: calc(0.25 * var(--space-unit));
+  --space-xxs: calc(0.375 * var(--space-unit));
+  --space-xs: calc(0.5 * var(--space-unit));
+  --space-sm: calc(0.75 * var(--space-unit));
+  --space-md: calc(1.25 * var(--space-unit));
+  --space-lg: calc(2 * var(--space-unit));
+  --space-xl: calc(3.25 * var(--space-unit));
+  --space-xxl: calc(5.25 * var(--space-unit));
+  --space-xxxl: calc(8.5 * var(--space-unit));
+  --space-xxxxl: calc(13.75 * var(--space-unit));
+<<<<<<< HEAD
+>>>>>>> a8ed75d99ea705db763e51d98a5ce348a7138951
+=======
+>>>>>>> a8ed75d99ea705db763e51d98a5ce348a7138951
+}
+
+* {
+  box-sizing: border-box;
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+/* --gray: #8892B0; */
+:root {
+  --orange: rgb(218, 157, 43);
+  --lightorange: rgb(233, 203, 112);
+  --navy: #011627;
+  --lightNavy: rgb(2, 36, 63);
+  --lighterNavy: rgb(14, 64, 104);
+  --white: #eff0f3;
+  --gray: #bdc2d5;
+  --dark:#484d5c;
+  --black:#010d17;
+}
+
+/* :root {
+  --green: rgb(99, 255, 219);
+  --darkgreen: #032a2a;
+  --navy: #011627;
+  --lightNavy: rgb(2, 36, 63);
+  --white: #CCD6f6;
+  --gray: #8892B0;
+  --dark:#484d5c;
+  --black:#010d17;
+} */
+
+/* ------ Adding Style to Scrollbar ------ */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: var(--dark); 
+  border-radius: 5px;
+=======
+=======
+>>>>>>> a8ed75d99ea705db763e51d98a5ce348a7138951
+  font-family: "Lato";
+  letter-spacing: calc(var(--space-xxxs) * 0.1);
+}
+body {
+  /* position: relative;
+  height: 100vh; */
+  overflow-x: hidden;
+<<<<<<< HEAD
+>>>>>>> a8ed75d99ea705db763e51d98a5ce348a7138951
+=======
+>>>>>>> a8ed75d99ea705db763e51d98a5ce348a7138951
+}
